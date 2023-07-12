@@ -21,7 +21,7 @@ migrate = Migrate(app,db)
 login = LoginManager(app)
 login.login_view = 'login'
 
-from app import routes, models, errors
+from app import routes, models
 
 # gmail authentication component
 if not app.debug:

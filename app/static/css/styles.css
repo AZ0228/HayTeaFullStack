@@ -1,0 +1,25 @@
+:root {
+    --bg-color: #FFFEE3;
+    --bg-color2: #FBFFD0;
+    --secondarycolor: #5F72A5;
+    --text-color: #2D3958;
+    --header-hover:#000;
+    --highlight: #EA5757
+}
+@font-face {
+    font-family: 'Satoshi';
+    src: url('Satoshi-Black.otf') format('truetype');
+    font-weight: normal;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    min-height: 100%;
+    margin: 0;
+    font-family: 'Satoshi', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
