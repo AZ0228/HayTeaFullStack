@@ -47,4 +47,6 @@ def register():
         return redirect(url_for('login'))
     return render_template('register.html', title = 'Register', form = form)
 
-
+@app.route('/menu')
+def menu():
+    return render_template('menu.html')
