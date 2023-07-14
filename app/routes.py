@@ -52,7 +52,7 @@ def register():
 def menu():
     return render_template('menu.html')
 
-# Route for the admin interface to edit the menu
+# Route for the admin interface to edit the menu, incomplete implementaion
 @app.route('/admin/menu', methods=['GET', 'POST'])
 def admin_menu():
     form = MenuItemForm()
