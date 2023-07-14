@@ -33,7 +33,6 @@ class Shift(db.Model):
     date = db.Column(db.DateTime, index=True)
     length = db.Column(db.Integer)
 
-
 class MenuItem(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100))
