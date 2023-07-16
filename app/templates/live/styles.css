@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root{
     --bg1:#FCECA8;
     --bg2:#FFFBEC;
+    --text1:color: rgba(19, 21, 22, 0.60);
+}
+
+body{
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+    color:var(--text1);
+
+}
+
+header{
+    background-color: var(--bg1);
+    display:flex;
+    font-family: 'Lexend Exa';
+    font-size: 1em;
+    font-weight:400;
+    height: 120px;
+    justify-content: center;
+}
+
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Lexend Exa';
+    font-size: 1em;
+    font-weight:400;
+    width: 80%;
+}
+
+.links{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width: 20%;
+    font-weight:300;
 }
