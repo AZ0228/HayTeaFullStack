@@ -3,19 +3,26 @@
 :root{
     --bg1:#FCECA8;
     --bg2:#FFFBEC;
-    --text1:color: rgba(19, 21, 22, 0.60);
+    --text1: rgba(19, 21, 22, 0.60);
+    --htext: #FFFBEC;
+}
+
+h1{
+    margin:0;
 }
 
 body{
     margin:0;
     background-color: var(--bg1);
+    color:var(--text1);
+    /* padding-top: 0; */
 }
 
 a{
     text-decoration:none;
     color:inherit;
     color:var(--text1);
-
+    padding: 16px 20px;
 }
 
 header{
@@ -39,13 +46,27 @@ header{
 .links{
     display:flex;
     align-items:center;
-    justify-content:space-between;
-    width: 20%;
     font-weight:300;
+    gap: 12px;
 }
 
 #intro{
     background-image:url("Vector\ 1.svg");
     height: 600px;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order{
+    border-radius: 32px;
+    background-color:#000;
+    color:var(--htext);
+}
+
+.intro-container{
+    position: relative;
+    margin: 0;
+    display: flex;
 }
