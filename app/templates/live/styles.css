@@ -10,6 +10,10 @@
     --htext: #FFFBEC;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 h1{
     margin: 50px 0;
     letter-spacing: 1.08px;
@@ -105,6 +109,7 @@ header{
     flex-direction: column;
     align-items: center;
     font-family: 'Maiden Orange';
+    height: 400px;
 }
 
 #hero p{
@@ -126,6 +131,7 @@ header{
 
 .hero-text{
     max-width: 450px;
+    transform: translateY(-50px);
     text-align: center;
 }
 
@@ -139,4 +145,20 @@ header{
 td img{
     max-height:100px;
     max-width:100px;
+}
+
+#favorites{
+    background-image: url("Vector1.svg");
+    height:600px;
+    background-size:cover;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#favorites h1{
+    padding-top: 250px;
+    margin: 0;
 }
