@@ -3,19 +3,35 @@
 :root{
     --bg1:#FCECA8;
     --bg2:#FFFBEC;
+    --text: #4C3D3D;
     --text1: rgba(19, 21, 22, 0.60);
     --htext: #FFFBEC;
 }
 
 h1{
-    margin:0;
+    margin: 50px 0;
+    letter-spacing: 1.08px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3{
+    font-size:21px;
+    font-weight: 400;
 }
 
 body{
     margin:0;
     background-color: var(--bg1);
-    color:var(--text1);
+    color:var(--text);
     /* padding-top: 0; */
+    font-family:'Lexend Exa';
 }
 
 a{
@@ -46,7 +62,7 @@ header{
 .links{
     display:flex;
     align-items:center;
-    font-weight:300;
+    font-weight: 400;
     gap: 12px;
 }
 
@@ -57,6 +73,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .order{
@@ -69,4 +86,13 @@ header{
     position: relative;
     margin: 0;
     display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.intro-text{
+    width:500px;
+    font-weight: 400;
+    text-align: center;
 }
