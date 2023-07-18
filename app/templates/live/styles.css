@@ -149,7 +149,7 @@ td img{
 
 #favorites{
     background-image: url("Vector1.svg");
-    height:600px;
+    height: 1000px;
     background-size:cover;
     z-index: 3;
     position: relative;
@@ -161,4 +161,8 @@ td img{
 #favorites h1{
     padding-top: 250px;
     margin: 0;
+}
+
+#info{
+    height:500px;
 }
