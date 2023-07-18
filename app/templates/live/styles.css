@@ -48,6 +48,7 @@ header{
     height: 120px;
     justify-content: center;
     width: 100%;
+    z-index: 5;
 }
 
 .nav-container{
@@ -68,7 +69,7 @@ header{
 
 #intro{
     background-image:url("Vector\ 1.svg");
-    height: 600px;
+    height: 550px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -95,4 +96,14 @@ header{
     width:500px;
     font-weight: 400;
     text-align: center;
+}
+
+#hero{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container{
+    width:80%;
 }
