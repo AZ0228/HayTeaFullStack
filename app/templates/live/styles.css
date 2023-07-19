@@ -134,6 +134,7 @@ header{
     flex-grow:1;
     justify-content: space-between;
     /* margin-left:100px; */
+    /* scale: 0.8; */
 }
 
 .hero-text{
@@ -219,11 +220,18 @@ td img{
     .intro-container h1{
         display:none;
     }
+    .bogo-container{
+        scale: 0.8;
+    }
     .links{
         display: none;
     }
     .hero-img{
         transform:translateY(-150px);
+        height:500px;
+    }
+    #hero{
+        height:300px;
     }
     #hero p {
         font-size: 40px;
