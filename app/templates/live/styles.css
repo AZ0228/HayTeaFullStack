@@ -184,7 +184,7 @@ td img{
         font-size:60px;
     }
     #hero h1{
-        font-size:90px;
+        font-size: 70px;
     }
     .hero-img{
         transform:translateY(-50px);
@@ -200,7 +200,7 @@ td img{
         width: 90%;
     }
     #hero{
-        height: 700px;
+        height: 450px;
     }
     .hero-container{
         flex-direction: column-reverse;
@@ -212,7 +212,9 @@ td img{
 
 @media (max-width:580px){
     #bogo{
-        transform: translate(20px,-150px);
+        /* transform: translate(20px,-150px); */
+        width: 250px;
+        height: 200px;
     }
     .intro-container h1{
         display:none;
@@ -220,10 +222,16 @@ td img{
     .links{
         display: none;
     }
-    .bogo-container{
-        flex-direction: column;
-    }
     .hero-img{
         transform:translateY(-150px);
+    }
+    #hero p {
+        font-size: 40px;
+    }
+    #intro{
+        height:650px;
+    }
+    td img{
+        max-height:75px;
     }
 }
