@@ -129,9 +129,16 @@ header{
     justify-content: space-between;
 }
 
+.bogo-container{
+    display:flex;
+    flex-grow:1;
+    justify-content: space-between;
+    /* margin-left:100px; */
+}
+
 .hero-text{
     max-width: 450px;
-    transform: translateY(-50px);
+    transform: translateY(-100px);
     text-align: center;
 }
 
@@ -165,4 +172,58 @@ td img{
 
 #info{
     height:500px;
+}
+
+/* media queries/responsive design */
+
+@media (max-width:1330px){
+    #hero{
+        height: 300px;
+    }
+    #hero p{
+        font-size:60px;
+    }
+    #hero h1{
+        font-size:90px;
+    }
+    .hero-img{
+        transform:translateY(-50px);
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .nav-container{
+        width: 90%;
+    }
+    .intro-container{
+        width: 90%;
+    }
+    #hero{
+        height: 700px;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        transform:translateY(-100px);
+    }
+}
+
+@media (max-width:580px){
+    #bogo{
+        transform: translate(20px,-150px);
+    }
+    .intro-container h1{
+        display:none;
+    }
+    .links{
+        display: none;
+    }
+    .bogo-container{
+        flex-direction: column;
+    }
+    .hero-img{
+        transform:translateY(-150px);
+    }
 }
