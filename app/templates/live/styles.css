@@ -242,4 +242,7 @@ td img{
     td img{
         max-height:75px;
     }
+    .intro-text{
+        transform:translateY(-30px);
+    }
 }
