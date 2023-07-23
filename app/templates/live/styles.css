@@ -246,3 +246,9 @@ td img{
         transform:translateY(-30px);
     }
 }
+
+#favorites-container{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
