@@ -38,6 +38,7 @@ body{
     color:var(--text);
     /* padding-top: 0; */
     font-family:'Lexend Exa';
+    overflow-x: hidden;
 }
 
 a{
@@ -91,6 +92,12 @@ header{
     border-radius: 32px;
     background-color:#000;
     color:var(--htext);
+    transition:all 0.5s;
+}
+
+.order:hover{
+    background-color: var(--htext);
+    color:#000;
 }
 
 .intro-container{
@@ -168,6 +175,7 @@ td img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: visible;
 }
 
 #favorites h1{
@@ -175,11 +183,37 @@ td img{
     margin: 0;
 }
 
+#favorites-container{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+    margin-top: 75px;
+    gap: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 95%;
+    padding-bottom:50px;
+}
+
+#favorites-container::-webkit-scrollbar {
+    width: 8px;
+}
+  
+#favorites-container::-webkit-scrollbar-thumb {
+    background-color: var(--bg1);
+    border-radius: 20px;
+}
+  
+#favorites-container::-webkit-scrollbar-thumb:hover {
+    background-color: #ECD986;
+}
+
 #info{
     height:500px;
 }
 
-/* media queries/responsive design */
+/* media queries/responsive design --------------------------------------------------------------------------------------------------------*/
 
 @media (max-width:1330px){
     #hero{
@@ -251,11 +285,4 @@ td img{
     }
 }
 
-#favorites-container{
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    align-items: center;
-    margin-top: 75px;
-    gap: 80px;
-}
+/* -----------------------------------------------------------------------------------------------------------------------------------------*/
