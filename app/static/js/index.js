@@ -6,3 +6,9 @@ window.addEventListener('scroll', function () {
         header.classList.remove('shadow'); // Add shadow when not at the top
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector("#favorites-container");
+  const middleScrollPosition = container.scrollWidth / 2 - container.clientWidth / 2;
+  container.scrollLeft = middleScrollPosition;
+});

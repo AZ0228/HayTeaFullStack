@@ -19,6 +19,7 @@ h1{
     letter-spacing: 1.08px;
     font-size: 36px;
     font-weight: 600;
+    text-align: center;
 }
 
 h2{
@@ -192,7 +193,7 @@ td img{
     gap: 100px;
     overflow-x: scroll;
     overflow-y: hidden;
-    width: 95%;
+    width: 100%;
     padding-bottom:50px;
 }
 
@@ -282,6 +283,9 @@ td img{
     }
     .intro-text{
         transform:translateY(-30px);
+    }
+    #favorites-container{
+        gap: 40px;
     }
 }
 
