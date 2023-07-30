@@ -272,7 +272,7 @@ td img{
     flex-direction: column;
     position: fixed;
     bottom:0;
-    right:10%;
+    right:5%;
     gap:70px;
     transform:translateY(300px);
     z-index:-2;
@@ -282,6 +282,7 @@ td img{
     position: absolute;
     z-index: -2;
     transform:translateY(460px);
+    display:none;
 }
 
 .cover{
