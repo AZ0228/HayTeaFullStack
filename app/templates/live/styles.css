@@ -40,6 +40,7 @@ body{
     /* padding-top: 0; */
     font-family:'Lexend Exa';
     overflow-x: hidden;
+    height: fit-content;
 }
 
 a{
@@ -222,6 +223,8 @@ td img{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .info-container{
@@ -281,8 +284,10 @@ td img{
 .C1-mobile{
     position: absolute;
     z-index: -2;
-    transform:translateY(460px);
     display:none;
+    overflow: hidden;
+    /* bottom: 0; */
+    transform: translateY(300px);
 }
 
 .cover{
@@ -380,6 +385,12 @@ td img{
     }
     .C1-mobile{
         display:block;
+    }
+    .information{
+        gap:15px;
+    }
+    .info-container{
+        transform:scale(0.8);
     }
 }
 
