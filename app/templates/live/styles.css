@@ -126,7 +126,7 @@ header{
     font-family: 'Maiden Orange';
     height: 400px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--bg1);
 }
 
@@ -231,6 +231,7 @@ td img{
     justify-content: center;
     margin-bottom: 50px;
     gap:30px;
+    width: 80%;
 }
 
 .information{
@@ -275,6 +276,12 @@ td img{
     gap:70px;
     transform:translateY(300px);
     z-index:-2;
+}
+
+.C1-mobile{
+    position: absolute;
+    z-index: -2;
+    transform:translateY(460px);
 }
 
 .cover{
@@ -357,6 +364,21 @@ td img{
     }
     #favorites-container{
         gap: 40px;
+    }
+    #info{
+        height: 800px;
+    }
+    .thirsty-container{
+        margin-bottom: 600px;
+    }
+    #thirsty{
+        text-align: center;
+    }
+    .C1{
+        display:none;
+    }
+    .C1-mobile{
+        display:block;
     }
 }
 
