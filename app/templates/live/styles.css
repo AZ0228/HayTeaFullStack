@@ -87,6 +87,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+    position: relative;
+    background-color: var(--bg1);
 }
 
 .order{
@@ -122,6 +125,9 @@ header{
     align-items: center;
     font-family: 'Maiden Orange';
     height: 400px;
+    position: relative;
+    z-index: 1;
+    background-color: var(--bg1);
 }
 
 #hero p{
@@ -177,6 +183,7 @@ td img{
     flex-direction: column;
     align-items: center;
     overflow-x: visible;
+    /* background-color: var(--bg1); */
 }
 
 #favorites h1{
@@ -212,6 +219,70 @@ td img{
 
 #info{
     height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap:30px;
+}
+
+.information{
+    display:flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.information p{
+    font-size: 21px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    line-height: 178.5%;
+}
+
+#footer{
+    height:50px;
+    background-color: var(--bg2);
+}
+
+.thirsty-container{
+    width:80%;
+    position:absolute;
+    margin-bottom: 300px;
+}
+
+#thirsty{
+    font-size:48px;
+    font-weight:600;
+}
+
+.C1{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    bottom:0;
+    right:10%;
+    gap:70px;
+    transform:translateY(300px);
+    z-index:-2;
+}
+
+.cover{
+    width:100%;
+    height:50%;
+    position:absolute;
+    z-index: -1;
+    background-color: var(--bg1);
 }
 
 /* media queries/responsive design --------------------------------------------------------------------------------------------------------*/
