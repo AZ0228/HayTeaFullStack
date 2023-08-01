@@ -8,6 +8,7 @@
     --text: #4C3D3D;
     --text1: rgba(19, 21, 22, 0.60);
     --htext: #FFFBEC;
+    --button: #292D32;
 }
 
 html {
@@ -95,7 +96,7 @@ header{
 
 .order{
     border-radius: 32px;
-    background-color:#000;
+    background-color:var(--button);
     color:var(--htext);
     transition:all 0.5s;
 }
