@@ -204,6 +204,7 @@ td img{
     overflow-y: hidden;
     width: 100%;
     padding-bottom:50px;
+    margin-bottom:60px;
 }
 
 #favorites-container::-webkit-scrollbar {
