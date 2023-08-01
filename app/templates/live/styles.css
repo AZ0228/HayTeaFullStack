@@ -257,8 +257,11 @@ td img{
 }
 
 #footer{
-    height:50px;
+    height: 100px;
     background-color: var(--bg2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .thirsty-container{
