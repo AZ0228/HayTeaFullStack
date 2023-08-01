@@ -3,8 +3,8 @@
 
 
 :root{
-    --bg1:#FCECA8;
-    --bg2:#FFFBEC;
+    --bg1:#F8E7CE;
+    --bg2:#FFF9F1;
     --text: #4C3D3D;
     --text1: rgba(19, 21, 22, 0.60);
     --htext: #FFFBEC;
@@ -287,7 +287,6 @@ td img{
     display:none;
     overflow: hidden;
     /* bottom: 0; */
-    transform: translateY(300px);
 }
 
 .cover{
